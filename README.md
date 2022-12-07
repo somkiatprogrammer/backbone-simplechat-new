@@ -20,10 +20,11 @@ How To Use
 	DB_USERNAME=XXX
 	DB_PASSWORD=XXX
 
+
+#### Generate Laravel App Key ####
+	run CMD: php artisan key:generate
+    
 	
 #### Create Tables in Database ####
 	run CMD: php artisan migrate
 
-
-#### Generate Laravel App Key ####
-	run CMD: php artisan key:generate
