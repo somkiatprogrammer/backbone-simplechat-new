@@ -12,9 +12,6 @@ You need to run `composer update` for getting core libraries such as Laravel PHP
 
 How To Use
 ------
-#### Generate Laravel App Key First ####
-	run CMD: php artisan key:generate
-
 #### Set Database Values in .env.sample and Change File to .env ####
 	DB_CONNECTION=mysql
 	DB_HOST=XXX
@@ -26,3 +23,7 @@ How To Use
 	
 #### Create Tables in Database ####
 	run CMD: php artisan migrate
+
+
+#### Generate Laravel App Key ####
+	run CMD: php artisan key:generate
