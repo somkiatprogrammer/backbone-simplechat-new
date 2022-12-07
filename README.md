@@ -15,7 +15,7 @@ How To Use
 #### Generate Laravel App Key First ####
 	run CMD: php artisan key:generate
 
-#### Set Database in .env.sample and change file to .env ####
+#### Set Database Values in .env.sample and Change File to .env ####
 	DB_CONNECTION=mysql
 	DB_HOST=XXX
 	DB_PORT=XXX
